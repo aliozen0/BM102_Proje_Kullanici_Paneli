@@ -21,6 +21,7 @@ namespace ucuncuApp
 
         private void siparisler_Load(object sender, EventArgs e)
         {
+            
             siparisYukle();
             
         }
@@ -28,6 +29,8 @@ namespace ucuncuApp
         public void siparisYukle()
 
         {
+            dataGridView1.DataSource = null; // Önceki verileri temizle
+            dataGridView1.Columns.Clear(); // Önceki sütunları temizle
 
             anaForm anaForm = (anaForm)this.FindForm();
 

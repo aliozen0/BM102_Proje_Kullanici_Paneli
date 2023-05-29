@@ -128,6 +128,7 @@ namespace ucuncuApp
                     Temizle();
                     panelGiris.Show();
                     panelUye.Hide();
+                    button1.Show();
                 }
             }
             catch (Exception ex)

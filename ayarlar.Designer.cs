@@ -40,8 +40,6 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            label7 = new Label();
-            lblMevcutMail = new Label();
             SuspendLayout();
             // 
             // btnCikis
@@ -160,30 +158,11 @@
             label1.TabIndex = 5;
             label1.Text = "AYARLAR:";
             // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(55, 64);
-            label7.Name = "label7";
-            label7.Size = new Size(144, 25);
-            label7.TabIndex = 17;
-            label7.Text = "Mevcut E-Posta :";
-            // 
-            // lblMevcutMail
-            // 
-            lblMevcutMail.AutoSize = true;
-            lblMevcutMail.Location = new Point(219, 64);
-            lblMevcutMail.Name = "lblMevcutMail";
-            lblMevcutMail.Size = new Size(0, 25);
-            lblMevcutMail.TabIndex = 18;
-            // 
             // ayarlar
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Transparent;
-            Controls.Add(lblMevcutMail);
-            Controls.Add(label7);
             Controls.Add(btnCikis);
             Controls.Add(btnSifreDegistir);
             Controls.Add(buttonEpostaDegistir);
@@ -218,7 +197,5 @@
         private Label label3;
         private Label label2;
         private Label label1;
-        private Label label7;
-        private Label lblMevcutMail;
     }
 }

@@ -27,7 +27,7 @@ namespace ucuncuApp
             try
             {
 
-                if (string.IsNullOrEmpty(yeniEposta) )
+                if (string.IsNullOrEmpty(yeniEposta))
                 {
                     MessageBox.Show("E-Posta Boş Olamaz! Lütfen E-Posta Giriniz.");
                     return;
@@ -60,7 +60,7 @@ namespace ucuncuApp
                 MessageBox.Show("Hata oluştu: " + ex.ToString());
             }
         }
-    
+
 
         private void btnSifreDegistir_Click(object sender, EventArgs e)
         {
@@ -114,7 +114,7 @@ namespace ucuncuApp
 
         private void btnCikis_Click(object sender, EventArgs e)
         {
-            frmGiris frmGiris = new frmGiris();   
+            frmGiris frmGiris = new frmGiris();
             frmGiris.Show();
             this.FindForm().Hide();
 

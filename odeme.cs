@@ -102,7 +102,7 @@ namespace ucuncuApp
                     command.Parameters.AddWithValue("@yemekID", yemekIDConcatenated);
                     command.Parameters.AddWithValue("@yemekAdi", yemekAdiConcatenated);
                     command.Parameters.AddWithValue("@ucret", toplamUcret);
-                    command.Parameters.AddWithValue("@durum", "Hazırlanıyor");
+                    command.Parameters.AddWithValue("@durum", "Sipariş Alındı");
                     command.Parameters.AddWithValue("@odemeyontemi", odemeYontemi);
                     command.Parameters.AddWithValue("@adsoyad", adSoyad);
                     command.Parameters.AddWithValue("@adres", adres);
@@ -176,8 +176,8 @@ namespace ucuncuApp
                 {
                     string yemekAdiConcatenated = string.Join(", ", yemekAdiListesi);
 
-                    lblYemekler.Text = yemekAdiConcatenated;
-                    lblUcret.Text = toplamUcret.ToString("C2");
+                    lblYemekler.Text = "Sipariş İçeriği : " + yemekAdiConcatenated;
+                    lblUcret.Text = "Toplam Ücret : " + toplamUcret.ToString("C2");
                 }
                 else
                 {
