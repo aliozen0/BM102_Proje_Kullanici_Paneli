@@ -11,6 +11,7 @@ Admin paneli ise sadece işletmenin sahibibib gördüğü kısımdır. Admin bu 
 siparişlerin durumunu değiştirebilir ve kullanıclıarın bazı bilgilerini görebilir.
 
 Projeyi Hazırlayanlar:
+
 Ali ÖZEN
 
 Merve KELEŞ
